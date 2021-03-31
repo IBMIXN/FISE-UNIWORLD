@@ -1,0 +1,31 @@
+.progress {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  height: 34px;
+  width: 500px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: grey;
+  text-align: center;
+}
+
+.loadingText {
+  text-align: center;
+  width: 100%;
+  color: white;
+  line-height: 34px;
+  margin-top: 15px;
+}
+
+.full {
+  width: 10%;
+  height: 34px;
+  background-color: #4caf50;
+  text-align: center;
+  line-height: 34px;
+  color: white;
+}
