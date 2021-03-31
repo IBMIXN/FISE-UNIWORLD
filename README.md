@@ -28,6 +28,8 @@ The uniworld project uses a wide range of technologies:
 
 Available at `fise_uniworld_environment_src/Developer Guide`
 
+[Developer Guide](https://github.com/IBMIXN/FISE-UNIWORLD/blob/master/fise_uniworld_environment_src/Developer%20Guide/Uniworld_Developer_Guide.md)
+
 ## License
 
 AGPL-3.0 License
