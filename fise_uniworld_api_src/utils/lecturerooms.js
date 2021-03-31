@@ -18,13 +18,7 @@ const createLectureRoom = async (lectureRoom) => {
 
 const updateLectureRoom = async (id, lectureRoom) => {
   await loadDatabase();
-  const existingLectureRoom = await getLectureRoomById(id);
-  for (var key in lectureRoom) {
-    if (lectureRoom.hasOwnProperty(key)) {
-      existingLectureRoom[key] = lectureRoom[key];
-    }
-  }
-  return await existingLectureRoom.save();
+  return await LectureRoom.findByIdAndUpdate(id, lectureRoom, { new: true });
 };
 
 const deleteLectureRoom = async (id) => {

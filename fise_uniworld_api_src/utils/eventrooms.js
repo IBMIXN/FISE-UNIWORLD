@@ -1,12 +1,12 @@
-const { loadDatabase } = require('./database');
-const EventRoom = require('../models/eventroom');
+const { loadDatabase } = require("./database");
+const EventRoom = require("../models/eventroom");
 
 const getEventRooms = async (showDetails) => {
   await loadDatabase();
   if (showDetails) {
     return await EventRoom.find();
   } else {
-    return await EventRoom.find({}, 'title eventDate');
+    return await EventRoom.find({}, "title eventDate");
   }
 };
 
@@ -22,13 +22,7 @@ const createEventRoom = async (eventRoom) => {
 
 const updateEventRoom = async (id, eventRoom) => {
   await loadDatabase();
-  const existingEventRoom = await getEventRoomById(id);
-  for (var key in eventRoom) {
-    if (eventRoom.hasOwnProperty(key)) {
-      existingEventRoom[key] = eventRoom[key];
-    }
-  }
-  return await existingEventRoom.save();
+  return await EventRoom.findByIdAndUpdate(id, eventRoom, { new: true });
 };
 
 const deleteEventRoom = async (id) => {

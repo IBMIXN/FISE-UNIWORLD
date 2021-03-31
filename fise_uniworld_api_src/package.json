@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "start": "func start",
-    "test": "jest --runInBand",
+    "test": "jest --runInBand --coverage",
     "release": "standard-version"
   },
   "dependencies": {
