@@ -1,0 +1,142 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TableDialog test should match snapshot 1`] = `
+<WithStyles(ForwardRef(Dialog))
+  aria-labelledby="form-dialog-title"
+  id="dialog"
+  onClose={[Function]}
+  open={false}
+>
+  <WithStyles(ForwardRef(DialogTitle))
+    id="form-dialog-title"
+  >
+    Edit
+     a meeting table
+  </WithStyles(ForwardRef(DialogTitle))>
+  <WithStyles(ForwardRef(DialogContent))>
+    <WithStyles(ForwardRef(TextField))
+      InputLabelProps={
+        Object {
+          "shrink": true,
+        }
+      }
+      autoFocus={true}
+      fullWidth={true}
+      id="meetingTitle"
+      label="Meeting Title"
+      margin="dense"
+      name="title"
+      onChange={[Function]}
+      placeholder="e.g. Team 1 Project Demo"
+      type="text"
+      value=""
+    />
+    <div
+      className="makeStyles-divider-1"
+    />
+    <WithStyles(ForwardRef(FormControl))
+      component="fieldset"
+    >
+      <WithStyles(ForwardRef(Typography))
+        className="makeStyles-textMuted-2"
+        variant="caption"
+      >
+        Table Type
+      </WithStyles(ForwardRef(Typography))>
+      <ForwardRef(RadioGroup)
+        aria-label="type"
+        id="tableType"
+        name="type"
+        onChange={[Function]}
+        row={true}
+        value="RoundMeetingTable"
+      >
+        <WithStyles(ForwardRef(FormControlLabel))
+          control={
+            <WithStyles(ForwardRef(Radio))
+              color="primary"
+            />
+          }
+          label="Round Table"
+          value="RoundMeetingTable"
+        />
+        <WithStyles(ForwardRef(FormControlLabel))
+          control={
+            <WithStyles(ForwardRef(Radio))
+              color="primary"
+            />
+          }
+          label="Rectangular Table"
+          value="RectangularMeetingTable"
+        />
+      </ForwardRef(RadioGroup)>
+    </WithStyles(ForwardRef(FormControl))>
+    <WithStyles(ForwardRef(TextField))
+      InputLabelProps={
+        Object {
+          "shrink": true,
+        }
+      }
+      fullWidth={true}
+      id="zoomUrl"
+      label="Zoom URL"
+      margin="dense"
+      name="zoomUrl"
+      onChange={[Function]}
+      placeholder="e.g. https://us04web.zoom.us/..."
+      type="text"
+      value=""
+    />
+    <div
+      className="makeStyles-divider-1"
+    />
+    <WithStyles(ForwardRef(Grid))
+      container={true}
+    >
+      <WithStyles(ForwardRef(Grid))
+        className="makeStyles-flexDisplay-5"
+        item={true}
+        xs={true}
+      >
+        <WithStyles(ForwardRef(Autocomplete))
+          className="makeStyles-padRight-4"
+          disableClearable={true}
+          fullWidth={true}
+          getOptionLabel={[Function]}
+          id="selectLogo"
+          noOptionsText="No options. Please upload a logo."
+          onChange={[Function]}
+          options={Array []}
+          renderInput={[Function]}
+          renderOption={[Function]}
+          value=""
+        />
+        <FileUpload
+          accept="image/*"
+          id="uploadLogo"
+          name="uploadLogo"
+          onChange={[Function]}
+        >
+          Upload Logo
+        </FileUpload>
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(DialogContent))>
+  <WithStyles(ForwardRef(DialogActions))>
+    <WithStyles(ForwardRef(Button))
+      color="primary"
+      id="closeButton"
+      onClick={[Function]}
+    >
+      Cancel
+    </WithStyles(ForwardRef(Button))>
+    <WithStyles(ForwardRef(Button))
+      color="primary"
+      id="submitButton"
+      onClick={[Function]}
+    >
+      Save Meeting Table
+    </WithStyles(ForwardRef(Button))>
+  </WithStyles(ForwardRef(DialogActions))>
+</WithStyles(ForwardRef(Dialog))>
+`;

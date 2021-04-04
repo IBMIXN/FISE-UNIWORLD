@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Edit Lecture Room view test should match snapshot 1`] = `
+<WithStyles(ForwardRef(Container))
+  className="makeStyles-mainSection-1"
+>
+  <WithStyles(ForwardRef(Snackbar))
+    anchorOrigin={
+      Object {
+        "horizontal": "center",
+        "vertical": "top",
+      }
+    }
+    autoHideDuration={5000}
+    onClose={[Function]}
+    open={false}
+  >
+    <WithStyles(ForwardRef(Alert))
+      elevation={6}
+      onClose={[Function]}
+      severity="success"
+      variant="filled"
+    />
+  </WithStyles(ForwardRef(Snackbar))>
+  <WithStyles(ForwardRef(Typography))
+    variant="h4"
+  >
+    Edit Lecture Room
+  </WithStyles(ForwardRef(Typography))>
+  <LectureRoomForm
+    onSubmit={[Function]}
+    submitText="Save Lecture Room"
+    updateLectureRoom={
+      Object {
+        "_id": "mockId",
+        "endTime": "2021-03-17T10:00:00.000Z",
+        "firstSlideUrl": "mockUrl",
+        "lecturer": "mockLecturer",
+        "module": "mockModule",
+        "numSlides": 1,
+        "startTime": "2021-03-17T09:00:00.000Z",
+        "title": "mockTitle",
+      }
+    }
+  />
+</WithStyles(ForwardRef(Container))>
+`;

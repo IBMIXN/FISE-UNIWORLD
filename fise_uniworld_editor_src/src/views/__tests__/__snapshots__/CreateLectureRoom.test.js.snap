@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Create Lecture Room view test should match snapshot 1`] = `
+<WithStyles(ForwardRef(Container))
+  className="makeStyles-mainSection-1"
+>
+  <WithStyles(ForwardRef(Snackbar))
+    anchorOrigin={
+      Object {
+        "horizontal": "center",
+        "vertical": "top",
+      }
+    }
+    autoHideDuration={5000}
+    onClose={[Function]}
+    open={false}
+  >
+    <WithStyles(ForwardRef(Alert))
+      elevation={6}
+      onClose={[Function]}
+      severity="success"
+      variant="filled"
+    />
+  </WithStyles(ForwardRef(Snackbar))>
+  <WithStyles(ForwardRef(Typography))
+    variant="h4"
+  >
+    Create Lecture Room
+  </WithStyles(ForwardRef(Typography))>
+  <LectureRoomForm
+    onSubmit={[Function]}
+    submitText="Create Lecture Room"
+  />
+</WithStyles(ForwardRef(Container))>
+`;

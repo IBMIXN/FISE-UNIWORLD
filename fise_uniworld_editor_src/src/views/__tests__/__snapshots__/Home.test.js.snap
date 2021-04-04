@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Home view test should match snapshot 1`] = `
+<Fragment>
+  <WithStyles(ForwardRef(Container))>
+    <WithStyles(ForwardRef(Grid))
+      className="makeStyles-jumbo-1"
+      container={true}
+    >
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        md={8}
+        xs={12}
+      >
+        <WithStyles(ForwardRef(Typography))
+          variant="h2"
+        >
+          UniWorld Editor
+        </WithStyles(ForwardRef(Typography))>
+        <WithStyles(ForwardRef(Typography))
+          variant="subtitle1"
+        >
+          This is a web editor tool for managing virtual rooms in the
+           
+          <a
+            href="https://brianmin.tech/uniworld/"
+            rel="noreferrer noopener"
+            target="_blank"
+          >
+            UniWorld platform
+          </a>
+        </WithStyles(ForwardRef(Typography))>
+        <div
+          className="makeStyles-divider-3"
+        />
+        <WithStyles(ForwardRef(Button))
+          className="makeStyles-viewButton-4"
+          color="primary"
+          component={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "propTypes": Object {
+                "innerRef": [Function],
+                "onClick": [Function],
+                "replace": [Function],
+                "target": [Function],
+                "to": [Function],
+              },
+              "render": [Function],
+            }
+          }
+          size="large"
+          to="/eventrooms"
+          variant="contained"
+        >
+          View Event Rooms
+        </WithStyles(ForwardRef(Button))>
+        <WithStyles(ForwardRef(Button))
+          className="makeStyles-createButton-5"
+          color="secondary"
+          component={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "propTypes": Object {
+                "innerRef": [Function],
+                "onClick": [Function],
+                "replace": [Function],
+                "target": [Function],
+                "to": [Function],
+              },
+              "render": [Function],
+            }
+          }
+          size="large"
+          to="/create"
+          variant="contained"
+        >
+          Create Event Room
+        </WithStyles(ForwardRef(Button))>
+      </WithStyles(ForwardRef(Grid))>
+      <WithStyles(ForwardRef(Grid))
+        item={true}
+        md={4}
+        xs={12}
+      >
+        <img
+          alt=""
+          className="makeStyles-img-2"
+          src="uniworldscreenshot.png"
+        />
+      </WithStyles(ForwardRef(Grid))>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Container))>
+</Fragment>
+`;

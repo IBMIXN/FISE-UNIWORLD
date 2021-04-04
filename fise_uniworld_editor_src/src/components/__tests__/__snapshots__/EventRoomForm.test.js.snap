@@ -1,0 +1,439 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EventRoomForm test should match snapshot 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  spacing={2}
+>
+   
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    md={12}
+  >
+    <WithStyles(ForwardRef(Card))
+      className="makeStyles-eventInfoPanel-1"
+    >
+      <WithStyles(ForwardRef(CardContent))>
+        <WithStyles(ForwardRef(Grid))
+          container={true}
+          spacing={3}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            md={5}
+            xs={12}
+          >
+            <WithStyles(ForwardRef(TextField))
+              InputLabelProps={
+                Object {
+                  "shrink": true,
+                }
+              }
+              disabled={false}
+              fullWidth={true}
+              id="title"
+              label="Title"
+              name="title"
+              onChange={[Function]}
+              placeholder="Enter the event title"
+              value=""
+            />
+            <MuiPickersUtilsProvider
+              utils={[Function]}
+            >
+              <PickerWithState
+                KeyboardButtonProps={
+                  Object {
+                    "aria-label": "change date",
+                  }
+                }
+                allowKeyboardControl={true}
+                autoOk={true}
+                disableToolbar={true}
+                disabled={false}
+                format="YYYY-MM-DD"
+                fullWidth={true}
+                id="eventDate"
+                invalidDateMessage="Invalid Date Format"
+                label="Event Date"
+                margin="normal"
+                maxDate={2100-01-01T00:00:00.000Z}
+                maxDateMessage="Date should not be after maximal date"
+                minDate={1900-01-01T00:00:00.000Z}
+                minDateMessage="Date should not be before minimal date"
+                onChange={[Function]}
+                openTo="date"
+                value=""
+                variant="inline"
+                views={
+                  Array [
+                    "year",
+                    "date",
+                  ]
+                }
+              />
+            </MuiPickersUtilsProvider>
+            <div
+              className="makeStyles-divider-2"
+            />
+            <WithStyles(ForwardRef(Autocomplete))
+              disableClearable={true}
+              fullWidth={true}
+              getOptionLabel={[Function]}
+              id="selectScene"
+              onChange={[Function]}
+              options={
+                Array [
+                  "Default",
+                  "ConferenceHall",
+                  "LaboratoryHall",
+                ]
+              }
+              renderInput={[Function]}
+              value="Default"
+            />
+            <div
+              className="makeStyles-divider-2"
+            />
+            <WithStyles(ForwardRef(Grid))
+              className="makeStyles-flexDisplay-9"
+              item={true}
+              xs={true}
+            >
+              <WithStyles(ForwardRef(Autocomplete))
+                className="makeStyles-padRight-8"
+                disableClearable={true}
+                fullWidth={true}
+                getOptionLabel={[Function]}
+                groupBy={[Function]}
+                id="selectBackground"
+                onChange={[Function]}
+                options={
+                  Array [
+                    "Default",
+                    "UclMainQuad",
+                    "UclPrintRoomCafe",
+                    "Hall",
+                    "TimesSquareNewYork",
+                    "RoyalOperaHouse",
+                    "SydneyOperaHouseOutside",
+                    "BritishLibraryOutside",
+                    "BritishMuseumOutside",
+                    "EiffelTowerSunset",
+                    "https://uniworldstorage.blob.core.windows.net/videos/Plaza.mp4",
+                    "https://uniworldstorage.blob.core.windows.net/videos/UclTour.mp4",
+                    "https://uniworldstorage.blob.core.windows.net/videos/Waterfront.mp4",
+                  ]
+                }
+                renderInput={[Function]}
+                value="Default"
+              />
+              <FileUpload
+                accept="image/*"
+                id="backgroundUpload"
+                name="backgroundUpload"
+                onChange={[Function]}
+                width="120px"
+              >
+                Upload
+              </FileUpload>
+            </WithStyles(ForwardRef(Grid))>
+            <div
+              className="makeStyles-divider-2"
+            />
+            <WithStyles(ForwardRef(Grid))
+              container={true}
+              spacing={4}
+            >
+              <WithStyles(ForwardRef(Grid))
+                item={true}
+                xs={6}
+              >
+                <WithStyles(ForwardRef(Typography))
+                  variant="subtitle2"
+                >
+                  Scene Preview
+                </WithStyles(ForwardRef(Typography))>
+                <div
+                  style={
+                    Object {
+                      "position": "relative",
+                    }
+                  }
+                >
+                  <div
+                    className="makeStyles-circle-10"
+                  />
+                  <img
+                    alt="background preview"
+                    width="100%"
+                  />
+                </div>
+              </WithStyles(ForwardRef(Grid))>
+              <WithStyles(ForwardRef(Grid))
+                item={true}
+                xs={6}
+              >
+                <WithStyles(ForwardRef(Typography))
+                  variant="subtitle2"
+                >
+                   
+                </WithStyles(ForwardRef(Typography))>
+                <WithStyles(ForwardRef(Typography))
+                  component="h3"
+                  variant="subtitle2"
+                >
+                  Scene:
+                </WithStyles(ForwardRef(Typography))>
+                <WithStyles(ForwardRef(Typography))
+                  component="h3"
+                  variant="caption"
+                >
+                  Default
+                </WithStyles(ForwardRef(Typography))>
+                <WithStyles(ForwardRef(Typography))
+                  className="makeStyles-padTop-7"
+                  component="h3"
+                  variant="subtitle2"
+                >
+                  Background:
+                </WithStyles(ForwardRef(Typography))>
+                <WithStyles(ForwardRef(Typography))
+                  component="h3"
+                  variant="caption"
+                >
+                  Default
+                </WithStyles(ForwardRef(Typography))>
+              </WithStyles(ForwardRef(Grid))>
+            </WithStyles(ForwardRef(Grid))>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            md={7}
+            xs={12}
+          >
+            <WithStyles(ForwardRef(Typography))
+              variant="subtitle2"
+            >
+              Meeting Tables
+            </WithStyles(ForwardRef(Typography))>
+            <div
+              className="makeStyles-divider-2"
+            />
+            <div
+              className="makeStyles-centerTableGrid-3"
+            >
+              <TableGridEditor
+                tables={Array []}
+                updateMeetingTables={[Function]}
+              />
+            </div>
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(CardContent))>
+      <WithStyles(ForwardRef(CardActions))>
+        <WithStyles(ForwardRef(Button))
+          className="makeStyles-createButton-4"
+          color="primary"
+          disabled={false}
+          id="submitButton"
+          onClick={[Function]}
+          size="large"
+          variant="outlined"
+        >
+          <Memo([object Object])
+            className="makeStyles-addIcon-5"
+          />
+          mockText
+        </WithStyles(ForwardRef(Button))>
+      </WithStyles(ForwardRef(CardActions))>
+    </WithStyles(ForwardRef(Card))>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;
+
+exports[`EventRoomForm test should render not background autocomplete component if non-default scene is selected 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  spacing={2}
+>
+   
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    md={12}
+  >
+    <WithStyles(ForwardRef(Card))
+      className="makeStyles-eventInfoPanel-1"
+    >
+      <WithStyles(ForwardRef(CardContent))>
+        <WithStyles(ForwardRef(Grid))
+          container={true}
+          spacing={3}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            md={5}
+            xs={12}
+          >
+            <WithStyles(ForwardRef(TextField))
+              InputLabelProps={
+                Object {
+                  "shrink": true,
+                }
+              }
+              disabled={false}
+              fullWidth={true}
+              id="title"
+              label="Title"
+              name="title"
+              onChange={[Function]}
+              placeholder="Enter the event title"
+              value=""
+            />
+            <MuiPickersUtilsProvider
+              utils={[Function]}
+            >
+              <PickerWithState
+                KeyboardButtonProps={
+                  Object {
+                    "aria-label": "change date",
+                  }
+                }
+                allowKeyboardControl={true}
+                autoOk={true}
+                disableToolbar={true}
+                disabled={false}
+                format="YYYY-MM-DD"
+                fullWidth={true}
+                id="eventDate"
+                invalidDateMessage="Invalid Date Format"
+                label="Event Date"
+                margin="normal"
+                maxDate={2100-01-01T00:00:00.000Z}
+                maxDateMessage="Date should not be after maximal date"
+                minDate={1900-01-01T00:00:00.000Z}
+                minDateMessage="Date should not be before minimal date"
+                onChange={[Function]}
+                openTo="date"
+                value=""
+                variant="inline"
+                views={
+                  Array [
+                    "year",
+                    "date",
+                  ]
+                }
+              />
+            </MuiPickersUtilsProvider>
+            <div
+              className="makeStyles-divider-2"
+            />
+            <WithStyles(ForwardRef(Autocomplete))
+              disableClearable={true}
+              fullWidth={true}
+              getOptionLabel={[Function]}
+              id="selectScene"
+              onChange={[Function]}
+              options={
+                Array [
+                  "Default",
+                  "ConferenceHall",
+                  "LaboratoryHall",
+                ]
+              }
+              renderInput={[Function]}
+              value="mockScene"
+            />
+            <div
+              className="makeStyles-divider-2"
+            />
+            <div
+              className="makeStyles-divider-2"
+            />
+            <WithStyles(ForwardRef(Grid))
+              container={true}
+              spacing={4}
+            >
+              <WithStyles(ForwardRef(Grid))
+                item={true}
+                xs={6}
+              >
+                <WithStyles(ForwardRef(Typography))
+                  variant="subtitle2"
+                >
+                  Scene Preview
+                </WithStyles(ForwardRef(Typography))>
+                <img
+                  alt="scene preview"
+                  src="https://via.placeholder.com/150"
+                  width="100%"
+                />
+              </WithStyles(ForwardRef(Grid))>
+              <WithStyles(ForwardRef(Grid))
+                item={true}
+                xs={6}
+              >
+                <WithStyles(ForwardRef(Typography))
+                  variant="subtitle2"
+                >
+                   
+                </WithStyles(ForwardRef(Typography))>
+                <WithStyles(ForwardRef(Typography))
+                  component="h3"
+                  variant="subtitle2"
+                >
+                  Scene:
+                </WithStyles(ForwardRef(Typography))>
+                <WithStyles(ForwardRef(Typography))
+                  component="h3"
+                  variant="caption"
+                >
+                  mockScene
+                </WithStyles(ForwardRef(Typography))>
+              </WithStyles(ForwardRef(Grid))>
+            </WithStyles(ForwardRef(Grid))>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            md={7}
+            xs={12}
+          >
+            <WithStyles(ForwardRef(Typography))
+              variant="subtitle2"
+            >
+              Meeting Tables
+            </WithStyles(ForwardRef(Typography))>
+            <div
+              className="makeStyles-divider-2"
+            />
+            <div
+              className="makeStyles-centerTableGrid-3"
+            >
+              <TableGridEditor
+                tables={Array []}
+                updateMeetingTables={[Function]}
+              />
+            </div>
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(CardContent))>
+      <WithStyles(ForwardRef(CardActions))>
+        <WithStyles(ForwardRef(Button))
+          className="makeStyles-createButton-4"
+          color="primary"
+          disabled={false}
+          id="submitButton"
+          onClick={[Function]}
+          size="large"
+          variant="outlined"
+        >
+          <Memo([object Object])
+            className="makeStyles-addIcon-5"
+          />
+          mockText
+        </WithStyles(ForwardRef(Button))>
+      </WithStyles(ForwardRef(CardActions))>
+    </WithStyles(ForwardRef(Card))>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;

@@ -1,0 +1,461 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LectureRoomForm test should correctly render preview image for firstSlideUrl 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  spacing={2}
+>
+   
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    md={12}
+  >
+    <WithStyles(ForwardRef(Card))
+      className="makeStyles-lectureInfoPanel-1"
+    >
+      <WithStyles(ForwardRef(CardContent))>
+        <WithStyles(ForwardRef(Grid))
+          container={true}
+          spacing={3}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            md={6}
+            xs={12}
+          >
+            <WithStyles(ForwardRef(TextField))
+              InputLabelProps={
+                Object {
+                  "shrink": true,
+                }
+              }
+              disabled={false}
+              fullWidth={true}
+              id="title"
+              label="Title"
+              name="title"
+              onChange={[Function]}
+              placeholder="Enter the lecture title"
+              value=""
+            />
+            <div
+              className="makeStyles-divider-2"
+            />
+            <WithStyles(ForwardRef(TextField))
+              InputLabelProps={
+                Object {
+                  "shrink": true,
+                }
+              }
+              disabled={false}
+              fullWidth={true}
+              id="module"
+              label="Module"
+              name="module"
+              onChange={[Function]}
+              placeholder="Enter the module"
+              value=""
+            />
+            <div
+              className="makeStyles-divider-2"
+            />
+            <WithStyles(ForwardRef(TextField))
+              InputLabelProps={
+                Object {
+                  "shrink": true,
+                }
+              }
+              disabled={false}
+              fullWidth={true}
+              id="lecturer"
+              label="Lecturer"
+              name="lecturer"
+              onChange={[Function]}
+              placeholder="Enter lecturer name"
+              value=""
+            />
+            <MuiPickersUtilsProvider
+              utils={[Function]}
+            >
+              <PickerWithState
+                KeyboardButtonProps={
+                  Object {
+                    "aria-label": "change start time",
+                  }
+                }
+                allowKeyboardControl={true}
+                ampm={true}
+                disablePast={true}
+                disabled={false}
+                format="h:mm a - YYYY/MM/DD"
+                fullWidth={true}
+                id="startTime"
+                invalidDateMessage="Invalid Date Format"
+                label="Start Time"
+                margin="normal"
+                maxDate={2100-01-01T00:00:00.000Z}
+                maxDateMessage="Date should not be after maximal date"
+                minDate={1900-01-01T00:00:00.000Z}
+                minDateMessage="Date should not be before minimal date"
+                onChange={[Function]}
+                openTo="date"
+                orientation="portrait"
+                showTabs={true}
+                showTodayButton={true}
+                value=""
+                views={
+                  Array [
+                    "year",
+                    "date",
+                    "hours",
+                    "minutes",
+                  ]
+                }
+                wider={true}
+              />
+            </MuiPickersUtilsProvider>
+            <MuiPickersUtilsProvider
+              utils={[Function]}
+            >
+              <PickerWithState
+                KeyboardButtonProps={
+                  Object {
+                    "aria-label": "change end time",
+                  }
+                }
+                allowKeyboardControl={true}
+                ampm={true}
+                disablePast={true}
+                disabled={false}
+                format="h:mm a - YYYY/MM/DD"
+                fullWidth={true}
+                id="endTime"
+                invalidDateMessage="Invalid Date Format"
+                label="End Time"
+                margin="normal"
+                maxDate={2100-01-01T00:00:00.000Z}
+                maxDateMessage="Date should not be after maximal date"
+                minDate={1900-01-01T00:00:00.000Z}
+                minDateMessage="Date should not be before minimal date"
+                onChange={[Function]}
+                openTo="date"
+                orientation="portrait"
+                showTabs={true}
+                showTodayButton={true}
+                value=""
+                views={
+                  Array [
+                    "year",
+                    "date",
+                    "hours",
+                    "minutes",
+                  ]
+                }
+                wider={true}
+              />
+            </MuiPickersUtilsProvider>
+            <div
+              className="makeStyles-divider-2"
+            />
+            <div
+              className="makeStyles-flexDisplay-9"
+            >
+              <WithStyles(ForwardRef(TextField))
+                InputLabelProps={
+                  Object {
+                    "shrink": true,
+                  }
+                }
+                InputProps={
+                  Object {
+                    "readOnly": true,
+                  }
+                }
+                className="makeStyles-padRight-8"
+                disabled={false}
+                fullWidth={true}
+                label="Lecture Slides"
+                name="firstSlideurl"
+                onChange={[Function]}
+                placeholder="Upload lecture slides in a PDF format"
+                value="mockSlideUrl"
+              />
+              <FileUpload
+                accept="application/pdf"
+                id="lectureSlideUpload"
+                name="lectureSlideUpload"
+                onChange={[Function]}
+                width="120px"
+              >
+                Upload
+              </FileUpload>
+            </div>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            md={6}
+            xs={12}
+          >
+            <WithStyles(ForwardRef(Typography))
+              variant="subtitle2"
+            >
+              Slide Preview
+            </WithStyles(ForwardRef(Typography))>
+            <img
+              alt="Slide Preview"
+              src="mockSlideUrl"
+              width="100%"
+            />
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(CardContent))>
+      <WithStyles(ForwardRef(CardActions))>
+        <WithStyles(ForwardRef(Button))
+          className="makeStyles-createButton-4"
+          color="primary"
+          disabled={false}
+          id="submitButton"
+          onClick={[Function]}
+          size="large"
+          variant="outlined"
+        >
+          <Memo([object Object])
+            className="makeStyles-addIcon-5"
+          />
+          mockText
+        </WithStyles(ForwardRef(Button))>
+      </WithStyles(ForwardRef(CardActions))>
+    </WithStyles(ForwardRef(Card))>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;
+
+exports[`LectureRoomForm test should match snapshot 1`] = `
+<WithStyles(ForwardRef(Grid))
+  container={true}
+  spacing={2}
+>
+   
+  <WithStyles(ForwardRef(Grid))
+    item={true}
+    md={12}
+  >
+    <WithStyles(ForwardRef(Card))
+      className="makeStyles-lectureInfoPanel-1"
+    >
+      <WithStyles(ForwardRef(CardContent))>
+        <WithStyles(ForwardRef(Grid))
+          container={true}
+          spacing={3}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            md={6}
+            xs={12}
+          >
+            <WithStyles(ForwardRef(TextField))
+              InputLabelProps={
+                Object {
+                  "shrink": true,
+                }
+              }
+              disabled={false}
+              fullWidth={true}
+              id="title"
+              label="Title"
+              name="title"
+              onChange={[Function]}
+              placeholder="Enter the lecture title"
+              value=""
+            />
+            <div
+              className="makeStyles-divider-2"
+            />
+            <WithStyles(ForwardRef(TextField))
+              InputLabelProps={
+                Object {
+                  "shrink": true,
+                }
+              }
+              disabled={false}
+              fullWidth={true}
+              id="module"
+              label="Module"
+              name="module"
+              onChange={[Function]}
+              placeholder="Enter the module"
+              value=""
+            />
+            <div
+              className="makeStyles-divider-2"
+            />
+            <WithStyles(ForwardRef(TextField))
+              InputLabelProps={
+                Object {
+                  "shrink": true,
+                }
+              }
+              disabled={false}
+              fullWidth={true}
+              id="lecturer"
+              label="Lecturer"
+              name="lecturer"
+              onChange={[Function]}
+              placeholder="Enter lecturer name"
+              value=""
+            />
+            <MuiPickersUtilsProvider
+              utils={[Function]}
+            >
+              <PickerWithState
+                KeyboardButtonProps={
+                  Object {
+                    "aria-label": "change start time",
+                  }
+                }
+                allowKeyboardControl={true}
+                ampm={true}
+                disablePast={true}
+                disabled={false}
+                format="h:mm a - YYYY/MM/DD"
+                fullWidth={true}
+                id="startTime"
+                invalidDateMessage="Invalid Date Format"
+                label="Start Time"
+                margin="normal"
+                maxDate={2100-01-01T00:00:00.000Z}
+                maxDateMessage="Date should not be after maximal date"
+                minDate={1900-01-01T00:00:00.000Z}
+                minDateMessage="Date should not be before minimal date"
+                onChange={[Function]}
+                openTo="date"
+                orientation="portrait"
+                showTabs={true}
+                showTodayButton={true}
+                value=""
+                views={
+                  Array [
+                    "year",
+                    "date",
+                    "hours",
+                    "minutes",
+                  ]
+                }
+                wider={true}
+              />
+            </MuiPickersUtilsProvider>
+            <MuiPickersUtilsProvider
+              utils={[Function]}
+            >
+              <PickerWithState
+                KeyboardButtonProps={
+                  Object {
+                    "aria-label": "change end time",
+                  }
+                }
+                allowKeyboardControl={true}
+                ampm={true}
+                disablePast={true}
+                disabled={false}
+                format="h:mm a - YYYY/MM/DD"
+                fullWidth={true}
+                id="endTime"
+                invalidDateMessage="Invalid Date Format"
+                label="End Time"
+                margin="normal"
+                maxDate={2100-01-01T00:00:00.000Z}
+                maxDateMessage="Date should not be after maximal date"
+                minDate={1900-01-01T00:00:00.000Z}
+                minDateMessage="Date should not be before minimal date"
+                onChange={[Function]}
+                openTo="date"
+                orientation="portrait"
+                showTabs={true}
+                showTodayButton={true}
+                value=""
+                views={
+                  Array [
+                    "year",
+                    "date",
+                    "hours",
+                    "minutes",
+                  ]
+                }
+                wider={true}
+              />
+            </MuiPickersUtilsProvider>
+            <div
+              className="makeStyles-divider-2"
+            />
+            <div
+              className="makeStyles-flexDisplay-9"
+            >
+              <WithStyles(ForwardRef(TextField))
+                InputLabelProps={
+                  Object {
+                    "shrink": true,
+                  }
+                }
+                InputProps={
+                  Object {
+                    "readOnly": true,
+                  }
+                }
+                className="makeStyles-padRight-8"
+                disabled={false}
+                fullWidth={true}
+                label="Lecture Slides"
+                name="firstSlideurl"
+                onChange={[Function]}
+                placeholder="Upload lecture slides in a PDF format"
+                value=""
+              />
+              <FileUpload
+                accept="application/pdf"
+                id="lectureSlideUpload"
+                name="lectureSlideUpload"
+                onChange={[Function]}
+                width="120px"
+              >
+                Upload
+              </FileUpload>
+            </div>
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            md={6}
+            xs={12}
+          >
+            <WithStyles(ForwardRef(Typography))
+              variant="subtitle2"
+            >
+              Slide Preview
+            </WithStyles(ForwardRef(Typography))>
+            <img
+              alt="Slide Preview"
+              src="https://via.placeholder.com/700x500.png?text=Placeholder+Slide"
+              width="100%"
+            />
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+      </WithStyles(ForwardRef(CardContent))>
+      <WithStyles(ForwardRef(CardActions))>
+        <WithStyles(ForwardRef(Button))
+          className="makeStyles-createButton-4"
+          color="primary"
+          disabled={false}
+          id="submitButton"
+          onClick={[Function]}
+          size="large"
+          variant="outlined"
+        >
+          <Memo([object Object])
+            className="makeStyles-addIcon-5"
+          />
+          mockText
+        </WithStyles(ForwardRef(Button))>
+      </WithStyles(ForwardRef(CardActions))>
+    </WithStyles(ForwardRef(Card))>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Grid))>
+`;

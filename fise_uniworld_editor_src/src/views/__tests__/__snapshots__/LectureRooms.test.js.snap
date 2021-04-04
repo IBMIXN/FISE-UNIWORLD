@@ -1,0 +1,276 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Lecturerooms view test should match snapshot 1`] = `
+<WithStyles(ForwardRef(Container))
+  className="makeStyles-mainSection-1"
+>
+  <WithStyles(ForwardRef(Snackbar))
+    anchorOrigin={
+      Object {
+        "horizontal": "center",
+        "vertical": "top",
+      }
+    }
+    autoHideDuration={3000}
+    onClose={[Function]}
+    open={false}
+  >
+    <WithStyles(ForwardRef(Alert))
+      elevation={6}
+      onClose={[Function]}
+      severity="success"
+      variant="filled"
+    />
+  </WithStyles(ForwardRef(Snackbar))>
+  <WithStyles(ForwardRef(Typography))
+    variant="h4"
+  >
+    Lecture Rooms
+  </WithStyles(ForwardRef(Typography))>
+  <div
+    className="makeStyles-progressLoader-5"
+  >
+    <WithStyles(ForwardRef(CircularProgress)) />
+  </div>
+</WithStyles(ForwardRef(Container))>
+`;
+
+exports[`Lecturerooms view test should match snapshot with lecture rooms 1`] = `
+<WithStyles(ForwardRef(Container))
+  className="makeStyles-mainSection-1"
+>
+  <WithStyles(ForwardRef(Snackbar))
+    anchorOrigin={
+      Object {
+        "horizontal": "center",
+        "vertical": "top",
+      }
+    }
+    autoHideDuration={3000}
+    onClose={[Function]}
+    open={false}
+  >
+    <WithStyles(ForwardRef(Alert))
+      elevation={6}
+      onClose={[Function]}
+      severity="success"
+      variant="filled"
+    />
+  </WithStyles(ForwardRef(Snackbar))>
+  <WithStyles(ForwardRef(Typography))
+    variant="h4"
+  >
+    Lecture Rooms
+  </WithStyles(ForwardRef(Typography))>
+  <WithStyles(ForwardRef(Grid))
+    container={true}
+    spacing={2}
+  >
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      md={3}
+      xs={12}
+    >
+      <WithStyles(ForwardRef(List))
+        aria-label="lecture rooms"
+        component="nav"
+      >
+        <WithStyles(ForwardRef(ListItem))
+          button={true}
+          className="makeStyles-listItemCreate-6"
+          component={
+            Object {
+              "$$typeof": Symbol(react.forward_ref),
+              "propTypes": Object {
+                "innerRef": [Function],
+                "onClick": [Function],
+                "replace": [Function],
+                "target": [Function],
+                "to": [Function],
+              },
+              "render": [Function],
+            }
+          }
+          to="/createlectureroom"
+        >
+          <WithStyles(ForwardRef(ListItemIcon))>
+            <Memo([object Object])
+              style={
+                Object {
+                  "color": "#fff",
+                }
+              }
+            />
+          </WithStyles(ForwardRef(ListItemIcon))>
+          <WithStyles(ForwardRef(ListItemText))
+            primary="Create lecture room"
+            primaryTypographyProps={
+              Object {
+                "noWrap": true,
+              }
+            }
+          />
+        </WithStyles(ForwardRef(ListItem))>
+        <WithStyles(ForwardRef(ListItem))
+          button={true}
+          id="listItem0"
+          key="mockId"
+          onClick={[Function]}
+          selected={true}
+        >
+          <WithStyles(ForwardRef(ListItemIcon))>
+            <Memo([object Object]) />
+          </WithStyles(ForwardRef(ListItemIcon))>
+          <WithStyles(ForwardRef(ListItemText))
+            primary="mockTitle"
+            primaryTypographyProps={
+              Object {
+                "noWrap": true,
+              }
+            }
+            secondary="mockModule"
+          />
+        </WithStyles(ForwardRef(ListItem))>
+      </WithStyles(ForwardRef(List))>
+    </WithStyles(ForwardRef(Grid))>
+    <WithStyles(ForwardRef(Grid))
+      item={true}
+      md={9}
+      xs={12}
+    >
+      <WithStyles(ForwardRef(Card))
+        className="makeStyles-lectureInfoPanel-2"
+      >
+        <WithStyles(ForwardRef(CardContent))>
+          <WithStyles(ForwardRef(Typography))
+            color="textSecondary"
+            gutterBottom={true}
+          >
+            mockModule
+          </WithStyles(ForwardRef(Typography))>
+          <WithStyles(ForwardRef(Typography))
+            component="h2"
+            id="currentLectureRoomTitle"
+            variant="h5"
+          >
+            mockTitle
+          </WithStyles(ForwardRef(Typography))>
+        </WithStyles(ForwardRef(CardContent))>
+        <WithStyles(ForwardRef(Grid))
+          container={true}
+          spacing={3}
+        >
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            md={8}
+            xs={12}
+          >
+            <img
+              alt="lecture preview"
+              src="mockUrl"
+              width="100%"
+            />
+          </WithStyles(ForwardRef(Grid))>
+          <WithStyles(ForwardRef(Grid))
+            item={true}
+            md={4}
+            xs={12}
+          >
+            <WithStyles(ForwardRef(Typography))
+              variant="subtitle2"
+            >
+              Lecturer:
+            </WithStyles(ForwardRef(Typography))>
+            <WithStyles(ForwardRef(Typography))
+              gutterBottom={true}
+              variant="body2"
+            >
+              mockLecturer
+            </WithStyles(ForwardRef(Typography))>
+            <div
+              classname="makeStyles-divider-3"
+            />
+            <WithStyles(ForwardRef(Typography))
+              variant="subtitle2"
+            >
+              Time:
+            </WithStyles(ForwardRef(Typography))>
+            <WithStyles(ForwardRef(Typography))
+              gutterBottom={true}
+              variant="body2"
+            >
+              9:00 am
+               -
+               
+              10:00 am
+            </WithStyles(ForwardRef(Typography))>
+            <div
+              classname="makeStyles-divider-3"
+            />
+            <WithStyles(ForwardRef(Typography))
+              variant="subtitle2"
+            >
+              Date:
+            </WithStyles(ForwardRef(Typography))>
+            <WithStyles(ForwardRef(Typography))
+              gutterBottom={true}
+              variant="body2"
+            >
+              March 17 2021
+            </WithStyles(ForwardRef(Typography))>
+            <div
+              classname="makeStyles-divider-3"
+            />
+            <WithStyles(ForwardRef(Typography))
+              variant="subtitle2"
+            >
+              Lecture Room URL: 
+            </WithStyles(ForwardRef(Typography))>
+            <a
+              href="https://brianmin.tech/uniworld?lid=mockId"
+              rel="noreferrer noopener"
+              target="_blank"
+            >
+              <WithStyles(ForwardRef(Typography))
+                noWrap={true}
+                variant="body2"
+              >
+                https://brianmin.tech/uniworld
+                ?lid=
+                mockId
+              </WithStyles(ForwardRef(Typography))>
+            </a>
+            <WithStyles(ForwardRef(Button))
+              aria-label="copyUrl"
+              className="makeStyles-mt-7"
+              color="primary"
+              onClick={[Function]}
+              variant="contained"
+            >
+              Copy URL
+            </WithStyles(ForwardRef(Button))>
+          </WithStyles(ForwardRef(Grid))>
+        </WithStyles(ForwardRef(Grid))>
+        <WithStyles(ForwardRef(CardActions))>
+          <WithStyles(ForwardRef(Button))
+            aria-label="editLectureRoomButton"
+            color="primary"
+            onClick={[Function]}
+            variant="outlined"
+          >
+            Edit
+          </WithStyles(ForwardRef(Button))>
+          <WithStyles(ForwardRef(Button))
+            aria-label="removeLectureRoomButton"
+            color="secondary"
+            onClick={[Function]}
+            variant="outlined"
+          >
+            Remove
+          </WithStyles(ForwardRef(Button))>
+        </WithStyles(ForwardRef(CardActions))>
+      </WithStyles(ForwardRef(Card))>
+    </WithStyles(ForwardRef(Grid))>
+  </WithStyles(ForwardRef(Grid))>
+</WithStyles(ForwardRef(Container))>
+`;
